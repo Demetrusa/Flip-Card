@@ -7,9 +7,7 @@
     justify-content: center;
 }
 #poker-logo{
-    width: 300px;
-
-   
+    width: 250px;
 }
 .back-side {
     background-image: url("./img/card-background.png");
@@ -40,7 +38,7 @@
 }
 
 .card-section {
-    padding: 9% 5%;
+    padding: 10% 5%;
 }
 .cards{
     width: 817px;
