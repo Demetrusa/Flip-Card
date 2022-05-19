@@ -8,6 +8,7 @@
 }
 #poker-logo{
     width: 250px;
+
 }
 .back-side {
     background-image: url("./img/card-background.png");
@@ -38,7 +39,7 @@
 }
 
 .card-section {
-    padding: 10% 5%;
+    padding: 4% 5%;
 }
 .cards{
     width: 817px;
@@ -61,4 +62,40 @@
 }
 .front-side, .back-side {
     position: absolute;
+}
+
+/* show cards */
+
+.cards-fan{
+    background: #b31919;
+    height: 50vh;
+}
+.cards-fan-section {
+    padding: 5% 5%;
+}
+.cards-fan-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 1.5%;
+}
+.card-animate{
+    position: absolute;
+    width: 200px;
+    transform-origin: bottom;
+    transition: all .3s linear;
+}
+.cards-fan-container:hover #ten-fan {
+    transform:rotate(20deg)
+}
+.cards-fan-container:hover #ace-fan {
+    transform: rotate(-20deg);
+}
+.cards-fan-container:hover #jack-fan {
+    transform: rotate(10deg);
+}
+.cards-fan-container:hover #king-fan{
+    transform: rotate(-10deg);
 }
